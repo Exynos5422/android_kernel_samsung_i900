@@ -58,6 +58,7 @@ obj-$(CONFIG_SAMSUNG_C2C)	+= c2c/
 obj-$(CONFIG_SEC_MODEM_V2)	+= modem_v2/
 obj-$(CONFIG_SEC_MODEM_V1)	+= modem_v1/
 obj-$(CONFIG_SEC_MODEM_IF)	+= modem_if/
+<<<<<<< HEAD
 obj-$(CONFIG_MFD_MAX77693)      += max77693-muic.o
 obj-y				+= 2mic/
 
@@ -67,3 +68,5 @@ obj-$(CONFIG_MOBICORE_DRIVER)  += tzic.o
 ifeq ($(TIMA_ENABLED),1)
 obj-$(CONFIG_TIMA_LOG)		+= tima_debug_log.o
 endif
+
+obj-$(CONFIG_UID_CPUTIME) += uid_cputime.o
